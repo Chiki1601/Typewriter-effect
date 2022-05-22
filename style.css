@@ -1,0 +1,48 @@
+.fond{
+  width: 1500px;
+  height: 900px;
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+ 
+}
+.creafun{
+  margin: auto;
+  width: 700px;
+  height: 400px;
+}
+.intelligence{
+  margin: auto;
+  width: 800px;
+  height: 100px;
+  transform: translatex(-100px) translatey(-470px);
+ 
+}
+.intel{
+  font-size: 5.5em;
+  color: #cc0099;
+  width: 800px;
+  font-weight: bold;
+  height: 140px;
+  margin: 0 auto;
+  white-space: nowrap;
+  overflow: hidden;
+  text-align: center;
+  border-right: .05em solid #cc0099;
+  letter-spacing: .03em;
+  transform: translatex(-70px) translatey(-540px);
+  
+  animation: type 6s steps(21, end),
+             blink-caret .6s step-end infinite;
+}
+
+@keyframes type{
+  from{
+    width: 0;
+  }
+}
+@keyframes blink-caret{
+  50%{
+    border-color: transparent;
+  }
+}
